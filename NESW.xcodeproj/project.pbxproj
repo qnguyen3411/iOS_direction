@@ -14,6 +14,7 @@
 		E316A8E42141C3DC00A39857 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E316A8E22141C3DC00A39857 /* LaunchScreen.storyboard */; };
 		E316A8EF2141C3DC00A39857 /* NESWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E316A8EE2141C3DC00A39857 /* NESWTests.swift */; };
 		E316A8FA2141C3DC00A39857 /* NESWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E316A8F92141C3DC00A39857 /* NESWUITests.swift */; };
+		E3CFE4692143558E005EFAE6 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CFE4682143558E005EFAE6 /* SecondVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		E316A8D62141C3DB00A39857 /* NESW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NESW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E316A8D92141C3DB00A39857 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E316A8DB2141C3DB00A39857 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E316A8DB2141C3DB00A39857 /* ViewController.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; tabWidth = 4; wrapsLines = 0; };
 		E316A8DE2141C3DB00A39857 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E316A8E02141C3DC00A39857 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E316A8E32141C3DC00A39857 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		E316A8F52141C3DC00A39857 /* NESWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NESWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E316A8F92141C3DC00A39857 /* NESWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NESWUITests.swift; sourceTree = "<group>"; };
 		E316A8FB2141C3DC00A39857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3CFE4682143558E005EFAE6 /* SecondVC.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; tabWidth = 4; wrapsLines = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				E316A8D92141C3DB00A39857 /* AppDelegate.swift */,
 				E316A8DB2141C3DB00A39857 /* ViewController.swift */,
+				E3CFE4682143558E005EFAE6 /* SecondVC.swift */,
 				E316A8DD2141C3DB00A39857 /* Main.storyboard */,
 				E316A8E02141C3DC00A39857 /* Assets.xcassets */,
 				E316A8E22141C3DC00A39857 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E316A8DC2141C3DB00A39857 /* ViewController.swift in Sources */,
+				E3CFE4692143558E005EFAE6 /* SecondVC.swift in Sources */,
 				E316A8DA2141C3DB00A39857 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,12 +437,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3HXPCZ4FZM;
 				INFOPLIST_FILE = NESW/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = qn.NESW;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qn.NESW;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -450,12 +456,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3HXPCZ4FZM;
 				INFOPLIST_FILE = NESW/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = qn.NESW;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qn.NESW;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

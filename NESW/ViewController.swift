@@ -9,12 +9,22 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-  override func viewDidLoad() {
-    super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
-  }
-
-
+    let direction = ["North", "South", "East", "West"]
+    var dirTag = 0
+    @IBAction func directionButtonPressed(_ sender: UIButton) {
+        dirTag = sender.tag
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+        print("Ho")
+    }
+  
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destination = segue.destination as! SecondVC
+        destination.direction = direction[dirTag]
+    }
 }
+
 
